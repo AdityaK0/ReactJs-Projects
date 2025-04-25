@@ -5,6 +5,8 @@ import DualListExchanger from './components/DualListExchanger/DualListExchanger'
 import Mouse from './components/MouseTracker/Mouse'
 import DropDown from './components/DropDown/DropDown'
 import ApiCaller from './components/WeatherAPI/ApiCaller'
+import Board from './components/Tic-Tac-Toe/Board'
+import Form from './components/Form/Form'
 import Weather from './components/WeatherAPI/Weather'
 
 function App() {
@@ -19,7 +21,9 @@ function App() {
       {/* <Mouse/> */}
       {/* <DropDown/> */}
       {/* <ApiCaller/> */}
-      <Weather/>
+      {/* <Weather/> */}
+      <Board/>
+      {/* <Form/> */}
     </div>
     </>
   )
