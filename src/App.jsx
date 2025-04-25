@@ -6,8 +6,8 @@ import Mouse from './components/MouseTracker/Mouse'
 import DropDown from './components/DropDown/DropDown'
 import ApiCaller from './components/WeatherAPI/ApiCaller'
 import Board from './components/Tic-Tac-Toe/Board'
-import Form from './components/Form/Form'
 import Weather from './components/WeatherAPI/Weather'
+import MultiStepForm from './components/Form/MultiStepForm'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -22,8 +22,9 @@ function App() {
       {/* <DropDown/> */}
       {/* <ApiCaller/> */}
       {/* <Weather/> */}
-      <Board/>
+      {/* <Board/> */}
       {/* <Form/> */}
+      <MultiStepForm/>
     </div>
     </>
   )
